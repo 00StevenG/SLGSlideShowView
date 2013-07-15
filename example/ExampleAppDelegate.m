@@ -6,17 +6,17 @@
 //  Copyright (c) 2013 Steven Grace. All rights reserved.
 //
 
-#import "SLGAppDelegate.h"
+#import "ExampleAppDelegate.h"
 
-#import "SLGViewController.h"
+#import "ExampleViewController.h"
 
-@implementation SLGAppDelegate
+@implementation ExampleAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[SLGViewController alloc] initWithNibName:@"SLGViewController" bundle:nil];
+    self.viewController = [[ExampleViewController alloc] initWithNibName:@"ExampleView" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

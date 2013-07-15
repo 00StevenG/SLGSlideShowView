@@ -10,14 +10,22 @@
 		E9DF90E91791A4B500656891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DF90E81791A4B500656891 /* UIKit.framework */; };
 		E9DF90EB1791A4B500656891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DF90EA1791A4B500656891 /* Foundation.framework */; };
 		E9DF90ED1791A4B500656891 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DF90EC1791A4B500656891 /* CoreGraphics.framework */; };
-		E9DF90F31791A4B500656891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DF90F11791A4B500656891 /* InfoPlist.strings */; };
-		E9DF90F51791A4B500656891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF90F41791A4B500656891 /* main.m */; };
-		E9DF90F91791A4B500656891 /* SLGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF90F81791A4B500656891 /* SLGAppDelegate.m */; };
-		E9DF90FB1791A4B500656891 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF90FA1791A4B500656891 /* Default.png */; };
-		E9DF90FD1791A4B600656891 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF90FC1791A4B600656891 /* Default@2x.png */; };
-		E9DF90FF1791A4B600656891 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF90FE1791A4B600656891 /* Default-568h@2x.png */; };
-		E9DF91021791A4B600656891 /* SLGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF91011791A4B600656891 /* SLGViewController.m */; };
-		E9DF91051791A4B600656891 /* SLGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91031791A4B600656891 /* SLGViewController.xib */; };
+		E9DF91331791A56100656891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF91241791A56100656891 /* main.m */; };
+		E9DF91341791A56100656891 /* ExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF91261791A56100656891 /* ExampleAppDelegate.m */; };
+		E9DF91351791A56100656891 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF91281791A56100656891 /* ExampleViewController.m */; };
+		E9DF91361791A56100656891 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF912A1791A56100656891 /* Default-568h@2x.png */; };
+		E9DF91371791A56100656891 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF912B1791A56100656891 /* Default.png */; };
+		E9DF91381791A56100656891 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E9DF912C1791A56100656891 /* Default@2x.png */; };
+		E9DF91391791A56100656891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DF912D1791A56100656891 /* InfoPlist.strings */; };
+		E9DF913A1791A56100656891 /* ExampleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DF912F1791A56100656891 /* ExampleView.xib */; };
+		E9DF91401791A6A000656891 /* SLGSlideshowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DF913F1791A6A000656891 /* SLGSlideshowView.m */; };
+		E9DF91491791B12A00656891 /* flower1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91421791B12A00656891 /* flower1.jpg */; };
+		E9DF914A1791B12A00656891 /* flower2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91431791B12A00656891 /* flower2.jpg */; };
+		E9DF914B1791B12A00656891 /* flower3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91441791B12A00656891 /* flower3.jpg */; };
+		E9DF914C1791B12A00656891 /* flower4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91451791B12A00656891 /* flower4.jpg */; };
+		E9DF914D1791B12A00656891 /* flower5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91461791B12A00656891 /* flower5.jpg */; };
+		E9DF914E1791B12A00656891 /* flower6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91471791B12A00656891 /* flower6.jpg */; };
+		E9DF914F1791B12A00656891 /* flower7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9DF91481791B12A00656891 /* flower7.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,18 +33,27 @@
 		E9DF90E81791A4B500656891 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9DF90EA1791A4B500656891 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E9DF90EC1791A4B500656891 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E9DF90F01791A4B500656891 /* SLGSlideShowView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLGSlideShowView-Info.plist"; sourceTree = "<group>"; };
-		E9DF90F21791A4B500656891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E9DF90F41791A4B500656891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E9DF90F61791A4B500656891 /* SLGSlideShowView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLGSlideShowView-Prefix.pch"; sourceTree = "<group>"; };
-		E9DF90F71791A4B500656891 /* SLGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLGAppDelegate.h; sourceTree = "<group>"; };
-		E9DF90F81791A4B500656891 /* SLGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLGAppDelegate.m; sourceTree = "<group>"; };
-		E9DF90FA1791A4B500656891 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		E9DF90FC1791A4B600656891 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		E9DF90FE1791A4B600656891 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		E9DF91001791A4B600656891 /* SLGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLGViewController.h; sourceTree = "<group>"; };
-		E9DF91011791A4B600656891 /* SLGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLGViewController.m; sourceTree = "<group>"; };
-		E9DF91041791A4B600656891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLGViewController.xib; sourceTree = "<group>"; };
+		E9DF91241791A56100656891 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DF91251791A56100656891 /* ExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleAppDelegate.h; sourceTree = "<group>"; };
+		E9DF91261791A56100656891 /* ExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleAppDelegate.m; sourceTree = "<group>"; };
+		E9DF91271791A56100656891 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		E9DF91281791A56100656891 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		E9DF912A1791A56100656891 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E9DF912B1791A56100656891 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E9DF912C1791A56100656891 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E9DF912E1791A56100656891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9DF91301791A56100656891 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ExampleView.xib; sourceTree = "<group>"; };
+		E9DF91311791A56100656891 /* SLGSlideShowView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SLGSlideShowView-Info.plist"; sourceTree = "<group>"; };
+		E9DF913C1791A59D00656891 /* SLGSlideShowView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLGSlideShowView-Prefix.pch"; sourceTree = "<group>"; };
+		E9DF913E1791A6A000656891 /* SLGSlideshowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGSlideshowView.h; sourceTree = "<group>"; };
+		E9DF913F1791A6A000656891 /* SLGSlideshowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGSlideshowView.m; sourceTree = "<group>"; };
+		E9DF91421791B12A00656891 /* flower1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower1.jpg; sourceTree = "<group>"; };
+		E9DF91431791B12A00656891 /* flower2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower2.jpg; sourceTree = "<group>"; };
+		E9DF91441791B12A00656891 /* flower3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower3.jpg; sourceTree = "<group>"; };
+		E9DF91451791B12A00656891 /* flower4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower4.jpg; sourceTree = "<group>"; };
+		E9DF91461791B12A00656891 /* flower5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower5.jpg; sourceTree = "<group>"; };
+		E9DF91471791B12A00656891 /* flower6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower6.jpg; sourceTree = "<group>"; };
+		E9DF91481791B12A00656891 /* flower7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower7.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +73,8 @@
 		E9DF90DC1791A4B500656891 = {
 			isa = PBXGroup;
 			children = (
-				E9DF90EE1791A4B500656891 /* SLGSlideShowView */,
+				E9DF913D1791A6A000656891 /* slideshowView */,
+				E9DF91231791A56100656891 /* example */,
 				E9DF90E71791A4B500656891 /* Frameworks */,
 				E9DF90E61791A4B500656891 /* Products */,
 			);
@@ -80,31 +98,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E9DF90EE1791A4B500656891 /* SLGSlideShowView */ = {
+		E9DF91231791A56100656891 /* example */ = {
 			isa = PBXGroup;
 			children = (
-				E9DF90F71791A4B500656891 /* SLGAppDelegate.h */,
-				E9DF90F81791A4B500656891 /* SLGAppDelegate.m */,
-				E9DF91001791A4B600656891 /* SLGViewController.h */,
-				E9DF91011791A4B600656891 /* SLGViewController.m */,
-				E9DF91031791A4B600656891 /* SLGViewController.xib */,
-				E9DF90EF1791A4B500656891 /* Supporting Files */,
+				E9DF913C1791A59D00656891 /* SLGSlideShowView-Prefix.pch */,
+				E9DF91241791A56100656891 /* main.m */,
+				E9DF91251791A56100656891 /* ExampleAppDelegate.h */,
+				E9DF91261791A56100656891 /* ExampleAppDelegate.m */,
+				E9DF91271791A56100656891 /* ExampleViewController.h */,
+				E9DF91281791A56100656891 /* ExampleViewController.m */,
+				E9DF912F1791A56100656891 /* ExampleView.xib */,
+				E9DF91291791A56100656891 /* supportingFiles */,
 			);
-			path = SLGSlideShowView;
+			path = example;
 			sourceTree = "<group>";
 		};
-		E9DF90EF1791A4B500656891 /* Supporting Files */ = {
+		E9DF91291791A56100656891 /* supportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				E9DF90F01791A4B500656891 /* SLGSlideShowView-Info.plist */,
-				E9DF90F11791A4B500656891 /* InfoPlist.strings */,
-				E9DF90F41791A4B500656891 /* main.m */,
-				E9DF90F61791A4B500656891 /* SLGSlideShowView-Prefix.pch */,
-				E9DF90FA1791A4B500656891 /* Default.png */,
-				E9DF90FC1791A4B600656891 /* Default@2x.png */,
-				E9DF90FE1791A4B600656891 /* Default-568h@2x.png */,
+				E9DF91411791B12A00656891 /* images */,
+				E9DF912A1791A56100656891 /* Default-568h@2x.png */,
+				E9DF912B1791A56100656891 /* Default.png */,
+				E9DF912C1791A56100656891 /* Default@2x.png */,
+				E9DF912D1791A56100656891 /* InfoPlist.strings */,
+				E9DF91311791A56100656891 /* SLGSlideShowView-Info.plist */,
 			);
-			name = "Supporting Files";
+			path = supportingFiles;
+			sourceTree = "<group>";
+		};
+		E9DF913D1791A6A000656891 /* slideshowView */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF913E1791A6A000656891 /* SLGSlideshowView.h */,
+				E9DF913F1791A6A000656891 /* SLGSlideshowView.m */,
+			);
+			path = slideshowView;
+			sourceTree = "<group>";
+		};
+		E9DF91411791B12A00656891 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E9DF91421791B12A00656891 /* flower1.jpg */,
+				E9DF91431791B12A00656891 /* flower2.jpg */,
+				E9DF91441791B12A00656891 /* flower3.jpg */,
+				E9DF91451791B12A00656891 /* flower4.jpg */,
+				E9DF91461791B12A00656891 /* flower5.jpg */,
+				E9DF91471791B12A00656891 /* flower6.jpg */,
+				E9DF91481791B12A00656891 /* flower7.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +201,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9DF90F31791A4B500656891 /* InfoPlist.strings in Resources */,
-				E9DF90FB1791A4B500656891 /* Default.png in Resources */,
-				E9DF90FD1791A4B600656891 /* Default@2x.png in Resources */,
-				E9DF90FF1791A4B600656891 /* Default-568h@2x.png in Resources */,
-				E9DF91051791A4B600656891 /* SLGViewController.xib in Resources */,
+				E9DF91361791A56100656891 /* Default-568h@2x.png in Resources */,
+				E9DF91371791A56100656891 /* Default.png in Resources */,
+				E9DF91381791A56100656891 /* Default@2x.png in Resources */,
+				E9DF91391791A56100656891 /* InfoPlist.strings in Resources */,
+				E9DF913A1791A56100656891 /* ExampleView.xib in Resources */,
+				E9DF91491791B12A00656891 /* flower1.jpg in Resources */,
+				E9DF914A1791B12A00656891 /* flower2.jpg in Resources */,
+				E9DF914B1791B12A00656891 /* flower3.jpg in Resources */,
+				E9DF914C1791B12A00656891 /* flower4.jpg in Resources */,
+				E9DF914D1791B12A00656891 /* flower5.jpg in Resources */,
+				E9DF914E1791B12A00656891 /* flower6.jpg in Resources */,
+				E9DF914F1791B12A00656891 /* flower7.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,29 +223,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9DF90F51791A4B500656891 /* main.m in Sources */,
-				E9DF90F91791A4B500656891 /* SLGAppDelegate.m in Sources */,
-				E9DF91021791A4B600656891 /* SLGViewController.m in Sources */,
+				E9DF91331791A56100656891 /* main.m in Sources */,
+				E9DF91341791A56100656891 /* ExampleAppDelegate.m in Sources */,
+				E9DF91351791A56100656891 /* ExampleViewController.m in Sources */,
+				E9DF91401791A6A000656891 /* SLGSlideshowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E9DF90F11791A4B500656891 /* InfoPlist.strings */ = {
+		E9DF912D1791A56100656891 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E9DF90F21791A4B500656891 /* en */,
+				E9DF912E1791A56100656891 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E9DF91031791A4B600656891 /* SLGViewController.xib */ = {
+		E9DF912F1791A56100656891 /* ExampleView.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E9DF91041791A4B600656891 /* en */,
+				E9DF91301791A56100656891 /* en */,
 			);
-			name = SLGViewController.xib;
+			name = ExampleView.xib;
+			path = supportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,8 +313,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SLGSlideShowView/SLGSlideShowView-Prefix.pch";
-				INFOPLIST_FILE = "SLGSlideShowView/SLGSlideShowView-Info.plist";
+				GCC_PREFIX_HEADER = "example/SLGSlideShowView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/example/supportingFiles/SLGSlideShowView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,8 +324,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SLGSlideShowView/SLGSlideShowView-Prefix.pch";
-				INFOPLIST_FILE = "SLGSlideShowView/SLGSlideShowView-Info.plist";
+				GCC_PREFIX_HEADER = "example/SLGSlideShowView-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/example/supportingFiles/SLGSlideShowView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

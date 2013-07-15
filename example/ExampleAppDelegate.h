@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class SLGViewController;
+@class ExampleViewController;
 
-@interface SLGAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ExampleAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) SLGViewController *viewController;
+@property (strong, nonatomic) ExampleViewController *viewController;
 
 @end
