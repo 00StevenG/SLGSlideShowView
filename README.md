@@ -5,5 +5,5 @@ Simple Image Slide Show for displaying images with UITableView like datasource a
 
 
 
-![Alt text](example/supportingFiles/screenShot.png "Optional title")
+![Alt text](example/supportingFiles/screenShot.png "Screenshot")
 
