@@ -27,7 +27,7 @@
 //
 //
 //
--(void)_initImageSlideshowViewVars{
+-(void)_initVars{
 
     _transitionDuration = 2;
     _transitionOption = UIViewAnimationOptionTransitionCrossDissolve;
@@ -42,7 +42,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        [self _initImageSlideshowViewVars];
+        [self _initVars];
     }
     return self;
 }
@@ -53,7 +53,7 @@
     
     self = [super initWithCoder:aDecoder];
     if(self){
-        [self _initImageSlideshowViewVars];
+        [self _initVars];
     }
     return self;
 }
@@ -137,11 +137,11 @@
 -(void)previousImage{
     
     if(_counter<=1)
-        return;
+        return; // still on the first slide
 
     [NSObject cancelPreviousPerformRequestsWithTarget:self];
     
-    _counter = _counter-2;
+    _counter = _counter-2;// the counter has already been incremented for the next slide...so subtract 2
     
     [self _transitionToNextSlide];
     
